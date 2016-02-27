@@ -1,0 +1,10 @@
+<Alloy>
+    <Window id="winChat" title="Default Chat">
+        <RightNavButton>
+            <View id="vwReceive">
+                <Label id="lblReceive" text="Receive" onClick="btnReceiveClick"></Label>
+            </View>
+        </RightNavButton>
+        <Module id="chatModule" module="br.com.arlsoft.messages" method="createView"/>
+    </Window>
+</Alloy>

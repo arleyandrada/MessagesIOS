@@ -1,0 +1,12 @@
+"#container" : {
+	width : Ti.UI.FILL,
+	height : 100
+}
+
+"#btnStartCustom" : {
+	top : 0
+}
+
+"#btnStartDefault" : {
+	bottom : 0
+}

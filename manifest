@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: Messages
+author: Arley Andrada Maria
+license: Private
+copyright: Copyright (c) 2014 by ArlSoft Tecnologia
+
+# these should not be edited
+name: Messages
+moduleid: br.com.arlsoft.messages
+guid: 253ad4d6-2329-4ae4-b275-529601decdaa
+platform: iphone
+minsdk: 3.2.1.GA

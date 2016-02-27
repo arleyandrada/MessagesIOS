@@ -1,0 +1,10 @@
+<Alloy>
+    <NavigationWindow id="navMain" platform="ios">
+    	<Window id="winMain" title="Messages Test">
+    	    <View id="container">
+    	        <Button id="btnStartCustom" onClick="btnStartCustomClick">Start Custom</Button>
+    	        <Button id="btnStartDefault" onClick="btnStartDefaultClick">Start Default</Button>
+    	    </View>
+    	</Window>
+	</NavigationWindow>
+</Alloy>

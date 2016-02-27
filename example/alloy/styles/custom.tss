@@ -1,0 +1,214 @@
+"#chatModule": {
+	//Positioning, size and anchors...
+	left: 0,
+	right: 0,
+	top: 0,
+	bottom: 0,
+
+	/****************************************
+	Global style customization...
+	****************************************/
+
+	//Change view background color
+	//Default : '#fff'
+	backgroundColor: '#fff',
+
+	/****************************************
+	Timestamp customization...
+	****************************************/
+
+	//Change to timestamp visibility
+	//Default : true
+	showTimestamp: true,
+	//Change to timestamp height
+	//Default : 20
+	timestampHeight: 20,
+	//Change to timestamp text color
+	//Default : '#aaa'
+	timestampColor: '#aaa',
+	//Change to timestamp font to date part
+	//Default : system font, 12, bold
+	timestampPrefixFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 12,
+		fontStyle: 'normal',
+		fontWeight: 'bold'
+	},
+	//Change to timestamp font to time part
+	//Default : system font, 12, normal
+	timestampFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 12,
+		fontStyle: 'normal',
+		fontWeight: 'normal'
+	},
+
+	/****************************************
+	Sender name customization...
+	****************************************/
+
+	//Change to sender name visibility
+	//Default : true
+	showSenderName: true,
+	//Change to sender name height
+	//Default : 20
+	senderNameHeight: 20,
+	//Change to sender name text color
+	//Default : '#aaa'
+	senderNameColor: '#aaa',
+	//Change to sender name font
+	//Default : system font, 12, normal
+	senderNameFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 12,
+		fontStyle: 'normal',
+		fontWeight: 'normal'
+	},
+
+	/****************************************
+	Bubble customization...
+	****************************************/
+
+	//Change to bubbles visibility
+	//Default : true
+	showBubbles: true,
+	//Change to bubbles kind
+	//Options : min, tailless, stroked, stroked_tailless, min_tailless, system or custom (image from assets)
+	//Default : 'min'
+	bubbleKind: 'min',
+	//Change to incoming bubble color
+	//Default : '#43ca4f'
+	incomingBubbleColor: '#43ca4f',
+	//Change to outgoing bubble color
+	//Default : '#fff'
+	outgoingBubbleColor: '#e6e6eb',
+	//Change to incoming bubble text color
+	//Default : '#fff'
+	incomingTextColor: '#fff',
+	//Change to outgoing bubble text color
+	//Default : '#000'
+	outgoingTextColor: '#000',
+	//Change to incoming bubble text alignment
+	//Options : left, right, center
+	//Default : 'left'
+	incomingTextAlignment: 'left',
+	//Change to outgoing bubble text alignment
+	//Options : left, right, center
+	//Default : 'left'
+	outgoingTextAlignment: 'right',
+	//Change to bubble font
+	//Default : system font, 15, normal
+	bubbleFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 15,
+		fontStyle: 'normal',
+		fontWeight: 'normal'
+	},
+
+	/****************************************
+	Input bar customization...
+	****************************************/
+	
+	//Change to input bar background color
+	//Default : '#00000000'
+	inputBarBackgroundColor: '#00000000',
+	//Change to input bar height
+	//Defaut : 44
+	inputBarDefaultHeight: 44,
+	//Change to input bar buttons normal color
+	//Default : '#aaaaaa'
+	buttonNormalColor: '#aaaaaa',
+	//Change to input bar buttons highlighted color
+	//Default : '#43ca4f'
+	buttonHighlightedColor: '#43ca4f',
+	//Change to input bar buttons disabled color
+	//Default : '#d1d1d1'
+	buttonDisabledColor: '#d1d1d1',
+	//Change to input bar buttons use original color or solid colors
+	//Default : true
+	buttonWithSolidColor: false,
+
+	/****************************************
+	Input field customization...
+	****************************************/
+
+	//Change to input field background color
+	//Default : '#fff'
+	inputFieldBackgroundColor: '#fff',
+	//Change to input field border color
+	//Default : '#d3d3d3'
+	inputFieldBorderColor: '#d3d3d3',
+	//Change to input field text color
+	//Default : '#000'
+	inputFieldTextColor: '#000',
+	//Change to input field font
+	//Default : system font, 16, normal
+	inputFieldFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 16,
+		fontStyle: 'normal',
+		fontWeight: 'normal'
+	},
+	//Change to input field placeholder text color
+	//Default : '#d3d3d3'
+	inputFieldPlaceHolderTextColor: '#d3d3d3',
+	//Change to input field placeholder content
+	//Default : 'New Message'
+	inputFieldPlaceHolderText: 'New Message',
+
+	/****************************************
+	Accessory button customization...
+	****************************************/
+
+	//Change to accessory button image
+	//Option : camera, text or png image name from assets
+	//Default : 'camera' (image)
+	customAccessoryButton: 'camera',
+	//Change to accessory button width
+	//Default : 34
+	accessoryButtonWidth: 34,
+
+	/****************************************
+	Send button customization...
+	****************************************/
+
+	//Change to send button image
+	//Option : text or png image name from assets
+	//Default : 'Send' (text)
+	customSendButton: 'icon_send',
+	//Change to send button width
+	//Default : 40
+	sendButtonWidth: 40,
+
+	/****************************************
+	Avatar customization...
+	****************************************/
+
+	//Change to outgoing avatar visibility
+	//Default : true
+	showOutgoingAvatar: true,
+	//Change to incoming avatar visibility
+	//Default : true
+	showIncomingAvatar: true,
+	//Change to avatar size (diameter)
+	//Default : 34
+	avatarSize: 34,
+	//Change to avatar shaping mask
+	//Options : transparent png image name from assets
+	//Default : null (circle)
+	avatarOverlay: 'avatar_overlay',
+	//Change to avatar background color (when text avatar)
+	//Default : '#dadada'
+	textAvatarBackgroundColor: '#dadada',
+	//Change to avatar text color (when text avatar)
+	//Default : '#999999'
+	textAvatarColor: '#999999',
+	//Change to avatar font (when text avatar)
+	//Default : system font, 14, normal
+	textAvatarFont: {
+		fontFamily: 'Helvetica',
+		fontSize: 14,
+		fontStyle: 'normal',
+		fontWeight: 'normal'
+	}
+}
