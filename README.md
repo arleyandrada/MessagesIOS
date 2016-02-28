@@ -2,6 +2,8 @@
 
 Elegant, simple and powerful messages view [Titanium](https://www.appcelerator.com/titanium/) module for iOS based on JSQMessagesViewController from [Jesse Squires](https://github.com/jessesquires/JSQMessagesViewController).
 
+![Messages View for iOS](https://raw.githubusercontent.com/arleyandrada/MessagesIOS/master/documentation/overview.png "Messages View for iOS")
+
 ### FAQ and Issues
 
 [Click here](https://github.com/arleyandrada/MessagesIOS/issues?q=&utf8=) to get more info.
