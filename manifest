@@ -6,7 +6,7 @@ version: 1.0.0
 apiversion: 2
 description: Messages
 author: Arley Andrada Maria
-license: Private
+license: MIT License
 copyright: Copyright (c) 2014 by ArlSoft Tecnologia
 
 # these should not be edited
